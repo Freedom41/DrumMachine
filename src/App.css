@@ -1,0 +1,53 @@
+body {
+  background: url('https://res.cloudinary.com/freedom41/image/upload/v1574421612/drum-set-1839383_1920_b4wjmm.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-size: 20px;
+  }
+
+div {
+  text-align: center;
+}
+
+#drum-machine {
+  margin: 2rem;
+}
+
+#display {
+  font-size: 2.5em;
+  font-family: cursive, serif;
+  color: whitesmoke;
+}
+
+button {
+  height: 10rem;
+  width: 20rem;
+  background-color: #6d6d6d;  
+  border-radius: 50px;
+  border: 3px solid whitesmoke;
+  box-shadow: 4px 5px;
+  margin: 0.75rem;
+  font-family: cursive, serif;
+}
+
+.drum-pad:hover {
+  text-decoration: none;
+}
+
+.drum-pad {
+  font-size: 5rem;
+}
+
+button:hover {
+  text-decoration: none;
+  border: whitesmoke;
+  box-shadow: -1px -1px;
+}
+
+button:active
+button:focus,
+button:focus:active {
+  border: none;
+}
